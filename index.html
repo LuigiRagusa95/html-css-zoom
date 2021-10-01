@@ -13,9 +13,9 @@
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
     </head>
     <body>
-        <div id="app" class="flex flex-col">
+        <div id="app" class="flex flex-col h-screen">
             <!-- Header -->
-            <header class="fixed w-100p z-10 bg-lightblack">
+            <header class="fixed w-100p z-10 bg-black">
                 <div class="flex ai-center jc-end p-8">
                     <a href="#" class="flex ai-center jc-center mr-8 px-8 py-4 bdrs-4 fsz-14 td-none clr-white bg-rgb-white-20 trs-background">
                         <span class="material-icons-outlined mr-6">apps</span>
@@ -28,42 +28,108 @@
             </header>
 
             <!-- Main -->
-            <main class="flex flex-auto mt-56 bg-black ov-auto">
-                <ul class="flex ai-start flex-wrap gap-8 w-90p py-24 mx-auto">
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                    <li class="flex flex-18 max-w-50p min-h-120 bg-orange">1</li>
-                </ul>
+            <main class="flex flex-grow-1 bg-black">
+                <div class="flex w-90p mx-auto">
+                    <ul class="flex ai-center flex-wrap flex-auto gap-8 py-80 ov-auto">
+                        <li class="flex flex-18 max-h-160 max-w-50p bg-orange obj-fit ov-hidden">
+                            <img src="https://picsum.photos/id/231/900/900" alt="image description" />
+                        </li>
+                        <li class="flex flex-18 max-h-160 max-w-50p bg-orange obj-fit ov-hidden">
+                            <img src="https://picsum.photos/id/232/900/900" alt="image description" />
+                        </li>
+                        <li class="flex flex-18 max-h-160 max-w-50p bg-orange obj-fit ov-hidden">
+                            <img src="https://picsum.photos/id/233/900/900" alt="image description" />
+                        </li>
+                        <li class="flex flex-18 max-h-160 max-w-50p bg-orange obj-fit ov-hidden">
+                            <img src="https://picsum.photos/id/234/900/900" alt="image description" />
+                        </li>
+                        <li class="flex flex-18 max-h-160 max-w-50p bg-orange obj-fit ov-hidden">
+                            <img src="https://picsum.photos/id/235/900/900" alt="image description" />
+                        </li>
+                    </ul>
+                </div>
             </main>
 
             <!-- Navigation -->
-            <nav class=""></nav>
+            <nav class="flex fixed jc-between b-0 p-6 w-100p z-10 bg-lightblack">
+                <!-- Block 1 -->
+                <div class="flex ai-center jc-center fsz-14">
+                    <a href="#" class="flex ai-center p-4 px-6 mr-4 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col min-w-32 mr-4">
+                            <span class="material-icons-outlined md-24">mic</span>
+                            <span>Mute</span>
+                        </div>
+                        <span class="material-icons-outlined">expand_less</span>
+                    </a>
+                    <a href="#" class="flex ai-center p-4 px-6 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col min-w-32 mr-4">
+                            <span class="material-icons md-24">videocam</span>
+                            <span>Stop Video</span>
+                        </div>
+                        <span class="material-icons">expand_less</span>
+                    </a>
+                </div>
+                <!-- Block 2 -->
+                <div class="flex ai-center jc-around fsz-14">
+                    <a href="#" class="flex ai-center p-4 px-6 mr-8 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col mr-4">
+                            <span class="material-icons md-24">person_add</span>
+                            <span>Invite</span>
+                        </div>
+                    </a>
+                    <a href="#" class="flex ai-center p-4 px-6 mr-8 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col mr-4">
+                            <span class="material-icons md-24">people</span>
+                            <span>Manage Partecipants</span>
+                        </div>
+                    </a>
+                    <a href="#" class="flex ai-center p-4 px-6 mr-8 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col mr-4">
+                            <span class="material-icons md-24">poll</span>
+                            <span>Polling</span>
+                        </div>
+                    </a>
+                    <a href="#" class="flex ai-center p-4 px-6 mr-8 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col mr-4">
+                            <span class="material-icons md-24 clr-green">screen_share</span>
+                            <span>Share Screen</span>
+                        </div>
+                        <span class="material-icons">expand_less</span>
+                    </a>
+                    <a href="#" class="flex ai-center p-4 px-6 mr-8 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col mr-4">
+                            <span class="material-icons md-24">sms</span>
+                            <span>Chat</span>
+                        </div>
+                    </a>
+                    <a href="#" class="flex ai-center p-4 px-6 mr-8 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col mr-4">
+                            <span class="material-icons md-24">radio_button_checked</span>
+                            <span>Record</span>
+                        </div>
+                    </a>
+                    <a href="#" class="flex ai-center p-4 px-6 mr-8 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col mr-4">
+                            <span class="material-icons-sharp md-24">grid_view</span>
+                            <span>Breakout Rooms</span>
+                        </div>
+                    </a>
+                    <a href="#" class="flex ai-center p-4 px-6 mr-8 bdrs-4 td-none clr-white">
+                        <div class="flex ai-center jc-center flex-col mr-4">
+                            <span class="material-icons-sharp md-24">more_horiz</span>
+                            <span>More</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Block 3 -->
+                <div class="flex ai-stretch jc-center fsz-14">
+                    <a href="#" class="flex ai-stretch p-4 px-6 mr-8 bdrs-4 td-none clr-red bg-rgb-white-20">
+                        <div class="flex ai-center jc-center flex-col mr-4">
+                            <span>End Meeting</span>
+                        </div>
+                    </a>
+                </div>
+            </nav>
         </div>
     </body>
 </html>

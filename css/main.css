@@ -2,19 +2,30 @@ html { font-size: 16px; font-family: 'Lato', sans-serif; }
 
 .rotate-270 { transform: rotate(270deg); }
 .gap-8 { gap: 8px; }
+.flex-18 { flex: 18%; }
 
 .clr-white { color: #ffffff; }
+.clr-green { color: #4cc800; }
+.clr-red { color: #c36656; }
 
-.flex-18 { flex: 18%; }
-.min-h-120 { min-height: 120px; }
+.b-0 { bottom: 0; }
+
+.max-h-160 { max-height: 160px; }
+.min-h-96 { min-height: 96px; }
+
+.min-w-32 {min-width: 32px; }
+.min-w-18p {min-width: 18%; }
 .max-w-50p {max-width: 50%; }
+
 .flex-wrap { flex-wrap: wrap; }
 .ov-auto { overflow: auto; scroll-behavior: smooth; scrollbar-width: none; }
-
 .bg-white { background-color: #ffffff; }
 .bg-black { background-color: #000000; }
-.bg-lightblack { background-color: #050505; }
+.bg-lightblack { background-color: #222222; }
 .bg-orange { background-color: orange; }
+
+.obj-fit > img { object-fit: cover; }
+nav a:hover { background-color: rgba(255, 255, 255, .10); }
 
 .bg-rgb-white-20 { background-color: rgba(255, 255, 255, .20); }
 .bg-rgb-white-20:hover { background-color: rgba(255, 255, 255, .10); }
