@@ -1,4 +1,4 @@
-html { font-size: 16px; font-family: 'Lato', sans-serif; }
+html { font-size: 16px; font-family: 'Lato', sans-serif; scrollbar-width: none; }
 
 .rotate-270 { transform: rotate(270deg); }
 .gap-8 { gap: 8px; }
