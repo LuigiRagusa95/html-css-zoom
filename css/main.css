@@ -1,11 +1,21 @@
 html { font-size: 16px; font-family: 'Lato', sans-serif; }
 
 .rotate-270 { transform: rotate(270deg); }
+.gap-8 { gap: 8px; }
 
 .clr-white { color: #ffffff; }
 
+.flex-18 { flex: 18%; }
+.min-h-120 { min-height: 120px; }
+.max-w-50p {max-width: 50%; }
+.flex-wrap { flex-wrap: wrap; }
+.ov-auto { overflow: auto; scroll-behavior: smooth; scrollbar-width: none; }
+
 .bg-white { background-color: #ffffff; }
-.bg-black { background-color: #121212; }
+.bg-black { background-color: #000000; }
+.bg-lightblack { background-color: #050505; }
+.bg-orange { background-color: orange; }
+
 .bg-rgb-white-20 { background-color: rgba(255, 255, 255, .20); }
 .bg-rgb-white-20:hover { background-color: rgba(255, 255, 255, .10); }
 
