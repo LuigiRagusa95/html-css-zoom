@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <div id="app" class="flex flex-col h-screen clr-white ov-hidden">
+        <div id="app" class="flex flex-col h-full clr-white bg-black ov-hidden">
             <!-- Header -->
             <header class="flex ai-center jc-end fixed w-100p t-0 p-8 z-10 bg-black">
                 <a href="#" class="flex ai-center jc-center mr-8 p-8 bdrd-4 bg-gradient">
@@ -24,7 +24,17 @@
             </header>
 
             <!-- Main -->
-            <main class="flex flex-grow-1 bg-black"></main>
+            <main class="flex fxg-1 pt-56 pb-88 ov-auto">
+                <ul class="flex ai-center jc-center ac-center fxw-wrap gap-8 w-90p pt-8 mx-auto ov-a scrollbar-hidden">
+                    <li class="flex ar-16-9 relative clr-white obj-contain z-10 ov-h">
+                        <img src="https://picsum.photos/id/231/350/350" alt="image description" />
+                        <div class="flex ai-center p-4 gap-4 b-0 absolute bg-rgba-60">
+                            <span class="flex ai-center jc-center mic-icon"></span>
+                            <span class="fsz-14">Placeholder</span>
+                        </div>
+                    </li>
+                </ul>
+            </main>
 
             <!-- Navigation -->
             <nav class="flex ai-center jc-between fixed w-100p b-0 p-8 z-10 bg-lighblack">
