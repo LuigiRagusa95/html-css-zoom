@@ -11,18 +11,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <div id="app" class="flex flex-col h-screen">
+        <div id="app" class="flex flex-col h-screen clr-white ov-hidden">
             <!-- Header -->
-            <header class="fixed w-100p z-10 bg-black">
-                <div class="flex ai-center jc-end p-8">
-                    <a href="#" class="flex ai-center jc-center mr-8 px-8 py-4 bdrs-4 fsz-14 td-none clr-white bg-rgb-white-20 trs-background">
-                        <span class="material-icons-outlined mr-6">apps</span>
-                        <span>Speaker View</span>
-                    </a>
-                    <a href="#" class="flex ai-center jc-center p-4 bdrs-4 fsz-14 td-none clr-white bg-rgb-white-20 trs-background">
-                        <span class="material-icons">fullscreen</span>
-                    </a>
-                </div>
+            <header class="flex ai-center jc-end fixed w-100p t-0 p-8 z-10 bg-black">
+                <a href="#" class="flex ai-center jc-center mr-8 p-8 bdrd-4 bg-gradient">
+                    <span class="flex ai-center jc-center w-24 h-24 mr-8"><ion-icon name="albums" class="fsz-24"></ion-icon></span>
+                    <span class="flex">Speaker View</span>
+                </a>
+                <a href="#" class="flex ai-center jc-center mr-8 p-8 bdrd-4 bg-gradient">
+                    <span class="flex ai-center jc-center w-24 h-24"><ion-icon name="expand" class="fsz-24"></ion-icon></span>
+                </a>
             </header>
 
             <!-- Main -->
