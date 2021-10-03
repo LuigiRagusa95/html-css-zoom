@@ -4,12 +4,10 @@ h1, h2, h3, h4, h5, h6 { font-size: inherit; font-weight: inherit; }
 html { font-size: 16px; font-family: 'Lato', sans-serif; scrollbar-width: none; }
 *,*::before,*::after { margin: 0; padding: 0; border: none; box-sizing: border-box; }
 
-
 /* Layout */
 .fixed { position: fixed; }
 .absolute { position: absolute; }
 .relative { position: relative; }
-
 
 /* Flex */
 .flex { display: flex; }
@@ -27,7 +25,6 @@ html { font-size: 16px; font-family: 'Lato', sans-serif; scrollbar-width: none; 
 
 .gap-4 { gap: 0.25rem; }
 .gap-8 { gap: 0.5rem; }
-
 
 /* Dimensions */
 .p-4 { padding: 0.25rem; }
